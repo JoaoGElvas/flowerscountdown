@@ -20,6 +20,30 @@ body {
   perspective: 1000px;
 }
 
+.tituloContador{
+  font-family: 'Courier New', Courier, monospace;
+  word-spacing: -13px;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  margin-top: 7px;
+  color: #079097;
+  font-size: 50px;
+  z-index: 1;
+}
+
+.subTituloContador{
+  font-family: 'Courier New', Courier, monospace;
+  word-spacing: -13px;
+  top: 7%;
+  position: absolute;
+  text-align: center;
+  margin-top: 7px;
+  color: #fffb00;
+  font-size: 40px;
+  z-index: 1;
+}
+
 .relogio {
   position: absolute;
   display: flex;
@@ -66,6 +90,7 @@ body {
   filter: blur(0.1vmin);
   background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)), repeating-linear-gradient(220deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(148deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
 }
+
 
 .flowers {
   position: relative;
