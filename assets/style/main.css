@@ -46,6 +46,32 @@ body {
   z-index: 1;
 }
 
+@media (max-width: 480px) {
+  .tituloContador{
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: -13px;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 7px;
+    color: #079097;
+    font-size: 60px;
+    z-index: 1;
+  }
+  
+  .subTituloContador{
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: -13px;
+    top: 7%;
+    position: absolute;
+    text-align: center;
+    margin-top: 7px;
+    color: #fffb00;
+    font-size: 50px;
+    z-index: 1;
+  }
+}
+
 .relogio {
   position: absolute;
   margin-top: 100px;
